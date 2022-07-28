@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #134f5c;
+    color: #cfe2f3;
+    font-family: 'Fira Code', 'monospace';
+}
+#reload{
+    margin: 20px;
+    border: 0;
+    border-radius: 50%;
+    padding: 30px;
+    background-color: #ffd966;
+    color: #134f5c;
+    font-family:Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 900 !important;
+    opacity: 0.9;
+    
+}
+
+.table-responsive-sm{
+    overflow-x:auto;
+}
+.ww{
+    color:#ffd966;
+    border: 2px solid #cfe2f3;
+    font-size: 24px;
+
+
+}
+#data td {
+    color:#ffd966;
+    font-size: 40px;
+    border: 2px solid #cfe2f3;
+
+}
+#headers th {
+    color:#cfe2f3;
+    font-size: 20px;
+    border: 2px solid #cfe2f3;
+
+}
+
+
+@media only screen and (max-width: 600px){
+	#data td,.ww {
+        font-size: 20px;
+    }
+    #headers th {
+
+        font-size: 14px;
+    }
+    #reload {
+        font-size:16px;
+        padding: 20px;
+    }
+}
