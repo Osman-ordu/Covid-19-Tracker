@@ -51,7 +51,7 @@ window.sr = new ScrollReveal();
 sr.reveal('body',{
   opacity:0.3,
   scale:0.5,
-  duration:2000
+  duration:1000
 })
 
 sr.reveal('h1',{
